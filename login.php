@@ -1,6 +1,6 @@
 <?php
 require 'core/init.php';
-// unnessary comment for the heck of commenting
+// unnessary comment for the heck of commenting  éàèöâ
 if(Input::exists()) {
 	if(Token::check(Input::get('token'))) {
 		$user = new User();
