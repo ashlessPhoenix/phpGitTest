@@ -3,6 +3,10 @@ require 'core/init.php';
 
 $user = new User();
 
+?>
+
+<?php
+
 if(Session::exists('home')) {
 	echo '<p>', Session::flash('home'), '</p>';
 }
